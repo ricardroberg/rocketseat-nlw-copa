@@ -1,1 +1,1 @@
-# A LOT OF THINGS TO REVIEW
+# A LOT OF THINGS TO REVIEW (to better learn)
