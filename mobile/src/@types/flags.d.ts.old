@@ -1,0 +1,13 @@
+declare module "react-native-country-flag" {
+  import * as React from "react";
+  import { StyleSheet } from "react-native";
+  export interface ReactCountryFlagProps {
+    isoCode: string;
+    size: number;
+    style: StyleSheet;
+  }
+  export default class ReactCountryFlag extends React.Component<
+    ReactCountryFlagProps,
+    any
+  > {}
+}

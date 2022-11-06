@@ -7,7 +7,7 @@ async function main() {
     data: {
       name: "John Doe",
       email: "johndoe@email.com",
-      avatarUrl: "https://github.com/ricardroberg.png",
+      avatarUrl: "https://github.com/diego3g.png",
       googleId: "asdasdsdasdad32432453454adasdad",
     },
   });
@@ -25,13 +25,6 @@ async function main() {
       },
     },
   });
-
-  // const participant = await prisma.participant.create({
-  //   data: {
-  //     pollId: poll.id,
-  //     userId: user.id,
-  //   },
-  // });
 
   await prisma.game.create({
     data: {

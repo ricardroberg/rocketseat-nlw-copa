@@ -4,7 +4,6 @@ import { z } from "zod";
 
 import { prisma } from "../lib/prisma";
 import { authenticate } from "../plugins/authenticate";
-import { join } from "@prisma/client/runtime";
 
 export async function pollRoutes(fastify: FastifyInstance) {
   fastify.get("/polls/count", async () => {
